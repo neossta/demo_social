@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/demo_social/static/css/main.f4f2ab1c.css",
-    "main.js": "/demo_social/static/js/main.6b051b5e.js",
-    "static/css/988.52ea75c2.chunk.css": "/demo_social/static/css/988.52ea75c2.chunk.css",
-    "static/js/988.9c242c8f.chunk.js": "/demo_social/static/js/988.9c242c8f.chunk.js",
+    "main.css": "/demo_social/static/css/main.e8698fbd.css",
+    "main.js": "/demo_social/static/js/main.081e5beb.js",
+    "static/css/988.134efb01.chunk.css": "/demo_social/static/css/988.134efb01.chunk.css",
+    "static/js/988.a8558985.chunk.js": "/demo_social/static/js/988.a8558985.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/demo_social/static/js/787.28cb0dcd.chunk.js",
-    "static/media/loader.svg": "/demo_social/static/media/loader.3ea241192c736eb6f651344adb33bcf9.svg",
-    "static/media/logo.svg": "/demo_social/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/loader.svg": "/demo_social/static/media/loader.91b2ae052d6201bcfbaad6866cda3746.svg",
+    "static/media/logo.svg": "/demo_social/static/media/logo.fe775318c5aeda8b5e35511ec4251067.svg",
     "index.html": "/demo_social/index.html",
-    "main.f4f2ab1c.css.map": "/demo_social/static/css/main.f4f2ab1c.css.map",
-    "main.6b051b5e.js.map": "/demo_social/static/js/main.6b051b5e.js.map",
-    "988.52ea75c2.chunk.css.map": "/demo_social/static/css/988.52ea75c2.chunk.css.map",
-    "988.9c242c8f.chunk.js.map": "/demo_social/static/js/988.9c242c8f.chunk.js.map",
+    "main.e8698fbd.css.map": "/demo_social/static/css/main.e8698fbd.css.map",
+    "main.081e5beb.js.map": "/demo_social/static/js/main.081e5beb.js.map",
+    "988.134efb01.chunk.css.map": "/demo_social/static/css/988.134efb01.chunk.css.map",
+    "988.a8558985.chunk.js.map": "/demo_social/static/js/988.a8558985.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/demo_social/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4f2ab1c.css",
-    "static/js/main.6b051b5e.js"
+    "static/css/main.e8698fbd.css",
+    "static/js/main.081e5beb.js"
   ]
 }
