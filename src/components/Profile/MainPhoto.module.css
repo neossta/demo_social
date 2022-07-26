@@ -1,0 +1,42 @@
+.avatarContainer {
+    grid-area: photo;
+    cursor: pointer;
+    width: 25vw;
+    height: 25vw;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 100%;
+    
+}
+.inputFile {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    display: none;
+    background:rgba(255,255,255, 0.7);
+    width: 100%;
+}
+
+.avatarContainer:hover .inputFile {
+    display: block;
+}
+
+.avaPreloader {
+    background-color: rgba(215, 215, 215, 0.477);
+    display: flex;
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+    justify-content: center;
+    /* padding-top: 60px; */
+}
+@media screen and (max-width: 440px) {
+    .avatarContainer {
+        width: 40vw;
+        height: 40vw;
+    }
+}

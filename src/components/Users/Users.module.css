@@ -1,0 +1,19 @@
+.avatar {
+    height: 100px;
+    width: 130px;
+}
+
+.show_more_container {
+    text-align: center;
+    padding: 10px;
+}
+
+.status {
+    color:cornflowerblue;
+}
+
+.user {
+    margin: 15px;
+    padding: 10px;
+}
+

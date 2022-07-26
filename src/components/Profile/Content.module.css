@@ -1,0 +1,123 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'photo about'
+        'posts posts';
+    row-gap: 15px;
+    padding-top: 1.5vmin;
+
+}
+
+.about_me_info {
+    grid-area: about;
+    margin: 10px;
+    justify-content: start;
+    padding-left: 0;
+    padding-top: 1vmin;
+    margin-left: 0;
+}
+
+
+.full_name {
+    text-align: start;
+    font-weight: bold;
+}
+
+
+.lookingJob {
+    margin-top: 1vmin;
+}
+
+.checkImg {
+    width: 15px;
+}
+
+.linkImg {
+    width: 2vmin;
+    margin-right: 1vmin;
+}
+
+.jobDescription, .aboutMe {
+    margin-top: 2vmin;
+    padding-right: 3vmin;
+    padding-left: 2vmin;
+}
+
+.skillsSection, .aboutSection {
+    color: rgb(140, 140, 140);
+    letter-spacing: 0.06em;
+    margin: 1vmin;
+}
+
+.contacts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.contacts.hidden {
+    display: none;
+}
+
+.about_me_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.editButtonContainer {
+    align-self: flex-end;
+}
+
+.editButton {
+    text-decoration: underline;
+    background: none;
+    border: none;
+    color: rgb(140, 140, 140);
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.about_me_info:hover .editButton {
+    visibility: visible;
+}
+
+.contactsButton {
+    color: rgb(140, 140, 140);
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    color: rgb(140, 140, 140);
+    letter-spacing: 0.06em;
+    margin-top: 3vmin;
+}
+
+.contactsList {
+    list-style-type:none;
+    margin: 3vmin 5vmin 1vmin 0;
+}
+
+.contactLink {
+    color: rgb(38, 40, 41);;
+    text-decoration: none;
+}
+
+.contactLink:hover {
+    color: rgb(185, 215, 237);
+}
+
+@media screen and (max-width: 440px) {
+    .content {
+        grid-area: content-mobile-version;
+        padding-top: 5vh;
+    }
+
+    .editButton {
+        visibility: visible;
+    }
+
+    .contacts {
+        flex-flow: column wrap;
+    }
+}

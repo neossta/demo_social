@@ -1,0 +1,38 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.messages {
+    padding: 10px;
+    
+}
+
+.dialog {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.dialogConteiner {
+    display: flex;
+    align-items: center;
+
+}
+
+.dialogConteiner:hover {
+    background-color: rgb(222, 220, 228);
+}
+
+.avatar {
+    border-radius: 80%;
+    height: 60px;
+    width: 70px;
+    margin: 20px;
+
+}
+
+.avatar:hover {
+    box-shadow: 0 0 7px white;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.App-header {
+    background-color: rgb(38, 40, 41);
+    grid-area: h;
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+    }
+
+  .App-logo {
+    height: 80%;
+    pointer-events: none;
+    margin: 6px 0;
+  }
+
+  .App-menu {
+    display: none; 
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .loginBlock {
+    float: right;
+    margin: 10px;
+  }
+  
+  .loginBlock a {
+    color: white;
+  }
+
+  @media screen and (max-width: 440px) {
+    .App-menu {
+      display: inline-block;
+      height: 50%;
+      margin: 15px 0 15px 10px;
+      cursor: pointer;
+    }
+  }

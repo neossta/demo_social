@@ -1,0 +1,30 @@
+.addPostButton {
+    cursor: pointer;
+    border: none rgb(185, 215, 237);
+    border-radius: 4px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: rgb(38, 40, 41);
+    background-color: rgb(185, 215, 237);
+    box-shadow: 0 2px rgba(0, 0, 0, 0.4);
+    appearance: none;
+    font-family: inherit;
+    margin: 5px;
+}
+
+.addPostButton:hover {
+    opacity: 0.9;
+}
+
+.addPostButton:active {
+    line-height: 34px;
+}
+
+.addPostButton:disabled {
+    opacity: 0.6;
+}

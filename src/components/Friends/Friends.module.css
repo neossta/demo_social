@@ -1,0 +1,15 @@
+.friends {
+    padding: 5vmin 5vmin;
+}
+
+.friendContainer {
+    margin-bottom: 5vmin;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nameSpan {
+    margin-left: 3vw;
+    cursor: pointer;
+}

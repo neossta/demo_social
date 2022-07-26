@@ -1,0 +1,60 @@
+.postForm {
+    margin-bottom: 6vmin;
+}
+
+.item {
+    margin-top: 5px;
+}
+
+.postsBlock {
+    grid-area: posts;
+    margin-left: 20px;
+    margin-top: 5vmin;
+}
+
+
+.deleteButton {
+    text-decoration: underline;
+    background: none;
+    border: none;
+    color: rgb(140, 140, 140);
+    cursor: pointer;
+}
+
+
+.postHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.postContent {
+    padding-left: 1vw;
+    word-wrap: break-word;
+}
+
+.nameContainer {
+    margin-left: 1vw;
+    color: rgb(38, 40, 41);
+    font-weight: bold;
+}
+
+.likes {
+    color: rgb(185, 215, 237);
+    margin-top: 2vmin;
+}
+
+.delButtonContainer {
+    text-align: end;
+}
+
+.fieldContainer {
+    height: 10vmin;
+    padding: 1.5vmin;
+}
+
+@media screen and (max-width: 425px) {
+    .postsBlock {
+        margin-right: 20px;
+    }
+} 
